@@ -1,0 +1,129 @@
+.wrapper {
+	// background-color: #007bff;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: Arial, sans-serif;
+	width: 400px;
+	height: auto;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #f0f0f0;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	text-align: center;
+
+}
+
+.container {
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.hidden {
+	display: none;
+}
+
+.question__field {
+	margin-bottom: 20px;
+	width: 320px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.category,
+.question__number,
+.question {
+	width: 260px;
+	height: auto;
+	margin: 10px 0px;
+	// margin-left: 35px;
+	padding: 5px 0px;
+	border-radius: 15px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+	align-content: center;
+}
+
+.question {
+	padding: 10px;
+	line-height: 25px;
+}
+
+.category {
+	background-color: #ccec16;
+	color: black;
+}
+
+.question__number {
+	background-color: #93aa0f;
+
+}
+
+.quizIcon {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	// margin-left: 40px;
+}
+
+.icons {
+	// display: ;
+	width: 50px;
+	height: 50px;
+	margin: 0px 10px;
+	margin-top: 25px;
+
+
+}
+
+.question {
+	background-color: #4f5c09;
+	color: aqua;
+	margin-top: 35px;
+}
+
+
+.answer__field ul {
+	list-style-type: none;
+	padding: 0;
+	// margin-top: 75px;
+
+}
+
+.answer__item {
+	margin: 10px;
+
+}
+
+button {
+	padding: 10px;
+	width: 260px;
+	text-align: left;
+	background-color: #fff;
+	border: 1px solid rgb(223, 165, 165);
+	border-radius: 10px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+	text-align: center;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+button:hover {
+	background-color: #f0f0f0;
+}

@@ -1,0 +1,62 @@
+.score {
+	display: block;
+	margin: 10px 0px;
+	font-weight: bold;
+	font-size: 22px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.modal {
+	width: 500px;
+	height: 300px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+	display: none;
+	text-align: center;
+
+}
+
+.modal--open {
+	display: block;
+
+}
+
+.modal span {
+	display: block;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.current__quiz,
+.next__quiz {
+	font-size: 22px;
+	margin: 15px 0px;
+	padding: 0;
+}
+
+.current__quiz {
+	margin-top: 35px;
+
+}
+
+.modal button {
+	width: 200px;
+	font-size: 18px;
+	padding: 8px 16px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.modal button:hover {
+	background-color: #0056b3;
+}
