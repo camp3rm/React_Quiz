@@ -15,6 +15,6 @@ This is an interesting program with a quiz on the topic of Javascript, HTML/CSS 
 ### Basic steps:
  1. Clone the repository. Source to repo "https://github.com/camp3rm/React_Quiz"
  2. Instalation of node_modules( NodeJS and npm )
- 3. Run the project (Open project and write in your terminal npm start
+ 3. Run the project (Open project and write in your terminal npm start)
 
 ***
