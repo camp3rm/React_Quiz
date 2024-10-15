@@ -2,8 +2,6 @@
 ***
 ## Overview of BMI Quiz App
 
-> *Quiz Application*
-
 This is an interesting program with a quiz on the topic of Javascript, HTML/CSS and React.
 
 ## Built on:
@@ -13,8 +11,12 @@ This is an interesting program with a quiz on the topic of Javascript, HTML/CSS 
 ## How to run the application(basic steps):
 
 ### Basic steps:
- 1. Clone the repository. Source to repo "https://github.com/camp3rm/React_Quiz"
- 2. Instalation of node_modules( NodeJS and npm )
- 3. Run the project (Open project and write in your terminal npm start)
+ 1. Clone the repository. Source to repo github.com/camp3rm/React_Quiz
+ 2. Instalation of node_modules( yarn ):
+    - npm install -g yarn
+    - Open and write in the terminal: cd path/to/your/projeсt
+    - Install dependencies: yarn install
+ 3. Run the project:
+    - Write in the terminal: yarn start
 
 ***
